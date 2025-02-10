@@ -1,3 +1,4 @@
+[^Esta práctica ha sido realizada entera en Kali Linux]
 # 🥷​MIM-Spoofing
 ## 🕵️‍♂️Configuración para esnifar el tráfico de la red haciendo Spoofing
 En primer lugar, instalaremos el paquete bettercap, esta es la herramienta que vamos a usar para realizar este ataque.

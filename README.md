@@ -50,15 +50,8 @@ sudo bettercap -iface eth0 -caplet spoof-dns.cap
 La víctima ya estará siendo atacada, cuando acceda a la dirección que le hemos indicado será redirigida a nuestra página.
 
 ## ❌​Configuración para denegar internet a la victima mediante Spoofing
-Para comenzar, clonaremos el siguiente repositorio.
-```sh
-git clone https://github.com/Maalfer/PinguExit.git
-```
-Una vez clonado ejecutaremos el comando.
-```sh
-sudo arp-scan -I eth0 --localnet
-```
-Ya podremos ejecutar el script de python que hemos clonado del repositotio
+
+Ejecutar el script de python
 ```sh
 sudo python3 script.py
 ```
